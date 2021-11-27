@@ -1,0 +1,171 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 480px 80px 480px;
+}
+
+.header,
+.footer {
+    background-color: #1f2937;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.links,
+.hero {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button,
+.advertisement{ 
+    background-color: #3882f6;
+}
+
+.random{ 
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 580px;
+}
+
+.quote .text {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.links,
+.logo {
+    text-decoration: none;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    flex: 0 0 auto;
+    color: white;
+    width: 120px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 15%;
+}
+
+.left-content {
+    flex-wrap: wrap;
+    width: 420px;
+}
+
+.right-content {
+    margin-top: 25px;
+    width: 500px;
+    height: 250px;
+    border: 2px #1f2937;
+    background-color: grey;
+    text-align: center;
+    line-height: 250px;
+    color: white;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.images {
+    width: 155px;
+    height: 155px;
+    border: solid 2px #01a1ec;
+    border-radius: 15%;
+}
+
+.examples {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.description {
+    width: 170px;
+    flex: 0;
+    font-size: 20px;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+.advertisement {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 480px;
+    color: white;
+    padding: 30px 0;
+    
+}
+
+.advertisement button {
+    border: solid 2px white;
+}
+
+.slogan {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 0;
+}
+
+.invitation {
+    padding-top: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    color: white;
+}
